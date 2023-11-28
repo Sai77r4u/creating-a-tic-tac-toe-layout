@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,700&display=swap" rel="stylesheet">
+    <title>Tic tac toe game</title>
+    <style>
+        body{
+            background-color: rgba(22, 21, 21, 0.87);
+            color: white;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .box{
+            width: 500px;
+            height: 450px;
+            background: black;
+            float: right;
+            margin-top: 100px;
+            margin-right: 150px;
+            display: inline;
+            font-size: xx-large;
+            cursor: pointer;
+        }
+        .container{
+            float: left;
+            margin-top: 250px;
+            margin-left: 50px;
+        }
+        .firstline{
+            font-size: xx-large;
+            color: orange;
+        }
+        .secondline{
+            font-size: xx-large;
+            color: aqua;
+        }
+        .thirdline{
+            font-size: xx-large;
+            color: orange;
+        }
+        .firstbox{
+            
+            display: inline;
+            
+        }
+        .firstbox{
+            background: aqua;
+            left: 40px;
+            top: 50px;
+            position: relative;
+            padding: 40px 50px;
+        }
+        .firstbox:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .secondbox:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .thirdbox:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .s-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .s1-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .s2-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .t-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .t1-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .t2-box:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .secondbox{
+            background: rgb(54, 54, 54);
+             left: 70px;
+             top: 50px; 
+            position: relative;
+            display: inline;
+            padding: 40px 50px;
+        }
+        .thirdbox{
+            background: rgb(54, 54, 54);
+             left: 100px;
+             top: 50px; 
+            position: relative;
+            display: inline;
+            padding: 40px 50px;
+        }
+        .s-box{
+            background: rgb(54, 54, 54);
+            display: inline;
+            left: 40px;
+            top: 150px;
+            position: relative;
+            padding: 40px 50px; 
+        }
+        .s1-box{
+            background: aqua;
+            display: inline;
+            left: 70px;
+            top: 150px;
+            position: relative;
+            padding: 40px 50px; 
+        }
+        .s2-box{
+            background: rgb(54, 54, 54);
+             left: 100px;
+             top: 150px; 
+            position: relative;
+            display: inline;
+            padding: 40px 50px;
+        }
+        .t-box{
+            background: rgb(54, 54, 54);
+            display: inline;
+            left: 40px;
+            top: 250px;
+            position: relative;
+            padding: 40px 50px;
+        }
+        .t1-box{
+            background: rgb(54, 54, 54);
+            display: inline;
+            left: 70px;
+            top: 250px;
+            position: relative;
+            padding: 40px 50px;
+        }
+        .t2-box{
+            background: aqua;
+            display: inline;
+            left: 100px;
+            top: 250px;
+            position: relative;
+            padding: 40px 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><span class="firstline">Love is a game of </span><br>
+            <span class="secondline">tic-tac-toe, constantly waiting for</span> <br>
+            <span class="thirdline">the next x or o.</span></p>
+        </div>
+            <div class="box">
+                <div class="firstrow">
+                 <div class="firstbox">
+                    x
+                </div>
+                <div class="secondbox">
+                    O
+                </div>
+                <div class="thirdbox">
+                    O
+                </div>
+            </div>
+            <div class="secondrow">
+                <div class="s-box">
+                   0
+               </div>
+               <div class="s1-box">
+                   x
+               </div>
+               <div class="s2-box">
+                   O
+               </div>
+           </div>
+           <div class="thirdrow">
+            <div class="t-box">
+               O
+           </div>
+           <div class="t1-box">
+               O
+           </div>
+           <div class="t2-box">
+               x
+           </div>
+       </div>
+            </div>
+
+    
+</body>
+</html>
